@@ -23,11 +23,27 @@ const products =  {
         'Shelf_Loc' : 2,
         'Needed' : 4
     },
+    'itemname':{
+        'aisle': 12,
+        'Shelf_Loc': 1-2-3,
+        'Needed': 1
+    },
+    'itemname2':{
+        'aisle': 'A2',
+        'Shelf_Loc' : 12,
+        'Needed' : 2
+    },
+    'itemname3' : {
+        'aisle' : 'A2',
+        'Shelf_Loc' : 2,
+        'Needed' : 4
+    },
     'unkown':{
         'aisle' : 'Nan',
         'Shelf_Loc' : 'NaN',
         'Needed' : "NaN"
-    }
+    },
+    
 }
 
 app.get('/', (request, respone) =>{
