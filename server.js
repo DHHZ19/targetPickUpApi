@@ -42,6 +42,6 @@ app.get('/api/:name', (request, response) =>{
         response.json(products['unkown'])
     }
 })
-app.listen( process.env.PORT||PORT, () =>{
+app.listen( process.env.PORT || PORT, () =>{
     console.log(`Server is runnning on ${PORT} better go catch it`)
 })
