@@ -1,8 +1,10 @@
 const { response } = require('express')
 const express = require('express')
 const { Server } = require('http')
+const cors = require('cors')
 const app = express()
 
+app.use(cors())
 const PORT = 3000
 
 const products =  {
